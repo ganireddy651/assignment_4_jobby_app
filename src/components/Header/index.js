@@ -19,9 +19,11 @@ const Header = () => (
       </Link>
     </ul>
     <div className="log-out-button-container">
-      <button className="logout-btn" type="button">
-        Logout
-      </button>
+      <Link to="/login" className="nav-link">
+        <button className="logout-btn" type="button">
+          Logout
+        </button>
+      </Link>
     </div>
   </nav>
 )
