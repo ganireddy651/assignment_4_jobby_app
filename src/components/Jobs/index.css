@@ -2,4 +2,56 @@
   background-color: #000000;
   min-height: 100vh;
   background-size: cover;
+  padding: 30px;
+  display: flex;
+}
+.sidebar-container {
+  margin-right: 20px;
+  width: 230px;
+}
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  height: 196px;
+  width: 224px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.candidate-name {
+  color: #6366f1;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.candidate-bio {
+  color: #121212;
+  font-size: 11px;
+}
+.loader-container {
+  text-align: center;
+}
+.employment-type {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+.employment-type-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.checkbox {
+  margin-right: 10px;
+  margin-left: 0;
+  height: 14px;
+  width: 14px;
+}
+.checkbox-label {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Roboto';
 }

@@ -38,7 +38,7 @@ class LogIn extends Component {
 
     const response = await fetch(url, option)
     const data = await response.json()
-    console.log(data)
+
     if (response.ok === true) {
       this.onSuccessHandler(data.jwt_token)
     } else {
