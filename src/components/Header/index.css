@@ -42,3 +42,17 @@ body {
 .nav-link {
   text-decoration: none;
 }
+@media screen and (max-width: 576px) {
+  .website-logo {
+    height: 30px;
+  }
+  .navbar-container {
+    padding: 10px 15px;
+  }
+  /* .list-container {
+    display: none;
+  }
+  .logout-btn {
+    display: none;
+  } */
+}

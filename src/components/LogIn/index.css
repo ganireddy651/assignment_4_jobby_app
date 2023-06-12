@@ -13,6 +13,13 @@
   padding: 20px;
   border-radius: 10px;
 }
+@media (max-width: 576px) {
+  .form-container {
+    height: 350px;
+    width: 350px;
+    padding: 20px;
+  }
+}
 .log-in-image-container {
   text-align: center;
   margin: 20px;
