@@ -6,7 +6,7 @@
   display: flex;
 }
 .sidebar-container {
-  margin-right: 20px;
+  margin-right: 40px;
   width: 230px;
 }
 .profile-container {
@@ -54,4 +54,35 @@
   color: #ffffff;
   font-size: 14px;
   font-family: 'Roboto';
+}
+.job-item-details-container {
+  display: flex;
+  flex-direction: column;
+}
+.search-input-container {
+  border: 1px solid #cbd5e1;
+  width: 400px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.search-input {
+  outline: none;
+  border: none;
+  background-color: #121212;
+  padding: 5px;
+  width: 100%;
+}
+.search-icon {
+  outline: none;
+  background-color: #272727;
+  border: none;
+  height: 34px;
+  width: 35px;
+  color: #ffffff;
+  padding: 5px;
+}
+.job-list-container {
+  list-style: none;
+  padding-left: 0;
 }
