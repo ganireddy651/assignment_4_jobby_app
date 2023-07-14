@@ -66,6 +66,9 @@
   display: flex;
   justify-content: space-between;
 }
+.line {
+  background-color: #ffffff;
+}
 .search-input {
   outline: none;
   border: none;
@@ -85,4 +88,26 @@
 .job-list-container {
   list-style: none;
   padding-left: 0;
+}
+@media screen and (max-width: 576px) {
+  .jobs-container {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .sidebar-container {
+    margin-right: 0;
+    width: 100%;
+  }
+  .search-input-container {
+    order: -1;
+  }
+  .profile-container {
+    width: 90%;
+    background-size: cover;
+    order: 0;
+  }
+  .employment-type-container {
+    display: flex;
+    flex-direction: column;
+  }
 }

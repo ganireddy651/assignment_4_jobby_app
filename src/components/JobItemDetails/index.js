@@ -4,7 +4,6 @@ import './index.css'
 const JobItemDetails = props => {
   const {eachJob} = props
   const {
-    id,
     companyLogoUrl,
     employmentType,
     jobDescription,

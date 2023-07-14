@@ -58,7 +58,7 @@ class Jobs extends Component {
     this.setState({isLoading: true})
 
     const jwtToken = Cookies.get('jwt_token')
-    const url = 'https://apis.ccbp.in/jobs'
+    const url = `https://apis.ccbp.in/jobs`
     const options = {
       method: 'GET',
       headers: {
@@ -145,8 +145,7 @@ class Jobs extends Component {
             </>
           )}
         </div>
-        <hr />
-
+        <hr className="line" />
         <div className="employment-type-container">
           <h1 className="employment-type">Type of Employment </h1>
           <div className="checkbox-container">

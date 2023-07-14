@@ -16,7 +16,10 @@
 @media (max-width: 576px) {
   .form-container {
     height: 350px;
-    width: 350px;
+    width: 100%;
+    padding: 20px;
+  }
+  .login-container {
     padding: 20px;
   }
 }

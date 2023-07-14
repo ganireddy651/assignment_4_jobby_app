@@ -1,5 +1,5 @@
 import {Link, withRouter} from 'react-router-dom'
-
+// import {GoHome} from 'react-icons/go'
 import Cookies from 'js-cookie'
 
 import './index.css'
